@@ -70,9 +70,9 @@ pollex/
 
 但该架构在设计上仍存在明显的阶段性问题，比如：
 
-1. **Orchestrator 过度中心化（Single Point of Control）：**所有 **计划生成、任务拆解、调度、失败重试、结果汇总** 均由 Orchestrator 负责；
-2. **Agent 缺乏自治能力：**各 Agent 仅作为 被调用的执行单元，Agent 不具备自主决策能能力；
-3. **Memory 为全局共享：**缺乏如Orchestrator 记忆、横向记忆、纵向记忆的区分。
+1. Orchestrator 过度中心化（Single Point of Control）：所有 计划生成、任务拆解、调度、失败重试、结果汇总 均由 Orchestrator 负责；
+2. Agent 缺乏自治能力：各 Agent 仅作为 被调用的执行单元，Agent 不具备自主决策能能力；
+3. Memory 为全局共享：缺乏如Orchestrator 记忆、横向记忆、纵向记忆的区分。
 
 ### 快速开始
 
